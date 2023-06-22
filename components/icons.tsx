@@ -16,8 +16,8 @@ export const Logo: React.FC<IconSvgProps> = ({
 	>
         <defs>
             <linearGradient id="gradient" x1="0" x2="1" y1="0" y2="0.8">
-                <stop offset="0%" stop-color="#19b5fe"/>
-                <stop offset="100%" stop-color="#5333ed"/>
+                <stop offset="0%" stopColor="#19b5fe"/>
+                <stop offset="100%" stopColor="#5333ed"/>
             </linearGradient>
         </defs>
 
