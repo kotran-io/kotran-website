@@ -4,52 +4,32 @@ export const siteConfig = {
 	name: "Kotran",
 	description: "Break the limits of language, regain your freedom",
 	navItems: [
-	{
-		label: "Docs",
-		href: "/docs",
-	},
-    {
-        label: "Hub",
-        href: "/hub",
-    },
-    {
-        label: "Feedback",
-        href: "/feedback",
-    }
+		{
+			label: "Docs",
+			href: "/docs",
+		},
+		{
+			label: "Hub",
+			href: "/hub",
+		},
+		{
+			label: "Feedback",
+			href: "/feedback",
+		}
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Docs",
+			href: "/docs",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Hub",
+			href: "/hub",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+			label: "Feedback",
+			href: "/feedback",
+		}
 	],
 	links: {
 		github: "https://github.com/kotran-io",
