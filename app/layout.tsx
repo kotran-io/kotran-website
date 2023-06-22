@@ -10,9 +10,15 @@ import clsx from "clsx";
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
-		template: `%s - ${siteConfig.name}`,
+		template: `%s | ${siteConfig.name}`,
 	},
 	description: siteConfig.description,
+	keywords: [
+		"Kotran",
+		"Translator",
+		"Neural Machine Translator",
+		"NMT",
+	  ],
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
@@ -22,6 +28,9 @@ export const metadata: Metadata = {
 		shortcut: "/favicon-16x16.png",
 		apple: "/apple-touch-icon.png",
 	},
+	manifest: "/manifest.json",
+	creator: "Kotran Technology",
+	viewport: "viewport-fit=cover, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
 };
 
 export default function RootLayout({
