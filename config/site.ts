@@ -4,25 +4,17 @@ export const siteConfig = {
 	name: "Kotran",
 	description: "Break the limits of language, regain your freedom",
 	navItems: [
-		{
-			label: "Home",
-			href: "/",
-		},
+	{
+		label: "Docs",
+		href: "/docs",
+	},
     {
-      label: "Docs",
-      href: "/docs",
+        label: "Hub",
+        href: "/hub",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+        label: "Feedback",
+        href: "/feedback",
     }
 	],
 	navMenuItems: [
