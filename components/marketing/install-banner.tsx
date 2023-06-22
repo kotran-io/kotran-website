@@ -15,14 +15,14 @@ const bannerSuggestions = [
   {
     title: "Getting Started",
     description:
-      "Make beautiful, modern, and fast websites/applications regardless of your design experience.",
+      "Learn how to install the Kotran service and download models from Kotran Hub with docs.",
     icon: <GithubIcon className="text-blue-500" />,
     href: "/docs/guide/installation",
   },
   {
     title: "API Guide",
     description:
-      "NextUI is totally compatible with Next.js you just need to customize the _app.jsx entry file to load the provider.",
+      "Kotran gives you an unlimited API quota. You no longer need to make additional payments to use other translation APIs.",
     icon: <GithubIcon className="text-blue-500" />,
     href: "/docs/frameworks/nextjs",
   },
@@ -49,7 +49,7 @@ export const InstallBanner = () => {
             <h1 className={title({size: "md"})}>of language</h1>
           </div>
           <p className={subtitle({class: "md:w-full text-base lg:text-lg"})}>
-            Experience it firsthand and show us your creations!
+            Feel free to translate your documents!
           </p>
           <div className="flex flex-row gap-3 justify-start">
             <Button
