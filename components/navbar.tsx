@@ -86,9 +86,9 @@ export const Navbar = () => {
 						as={Link}
 						className="text-sm font-semibold text-default-600 bg-default-100"
 						href={siteConfig.links.sponsor}
-						startIcon={<HeartFilledIcon className="text-danger" />}
 						variant="flat"
 					>
+						<HeartFilledIcon className="text-danger" />
 						Sponsor
 					</Button>
 				</NavbarItem>
