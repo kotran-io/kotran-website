@@ -50,9 +50,7 @@ export default function RootLayout({
 				<Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
 					<div className="relative flex flex-col" id="app-container">
 						<Navbar />
-						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
-							{children}
-						</main>
+						{children}
 						<footer className="w-full flex items-center justify-center py-3">
 							<p className="text-sm text-default-400 not-draggable">ⓒ 2023 Kotran</p>
 						</footer>
