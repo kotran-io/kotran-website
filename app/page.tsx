@@ -1,6 +1,4 @@
-"use client";
-
-import {Spacer} from "@nextui-org/react";
+import {Spacer} from "@nextui-org/spacer";
 
 import {InstallBanner} from "@/components/marketing/install-banner";
 import {Community} from "@/components/marketing/community";

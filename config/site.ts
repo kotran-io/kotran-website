@@ -21,14 +21,32 @@ export const siteConfig = {
 		{
 			label: "Docs",
 			href: "/docs",
+			isExternal: false,
 		},
 		{
 			label: "Hub",
 			href: "/hub",
+			isExternal: false,
 		},
 		{
 			label: "Feedback",
 			href: "/feedback",
+			isExternal: false,
+		},
+		{
+			label: "Discord",
+			href: "/feedback",
+			isExternal: true,
+		},
+		{
+			label: "GitHub",
+			href: "https://github.com/kotran-io",
+			isExternal: true,
+		},
+		{
+			label: "Sponsor",
+			href: "https://patreon.com/Kotran",
+			isExternal: true,
 		}
 	],
 	links: {

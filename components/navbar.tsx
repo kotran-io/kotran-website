@@ -8,6 +8,7 @@ import {
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Button } from "@nextui-org/button";
+import { Divider } from "@nextui-org/divider";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
@@ -104,13 +105,15 @@ export const Navbar = () => {
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
 								color={
-									index === 2
+									index === 3 || index === 4
 										? "primary"
 										: index === siteConfig.navMenuItems.length - 1
 										? "danger"
 										: "foreground"
 								}
-								href="#"
+								isExternal={item.isExternal}
+								showAnchorIcon={item.isExternal}
+								href={item.href}
 								size="lg"
 							>
 								{item.label}

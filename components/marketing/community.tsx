@@ -1,6 +1,4 @@
-"use client";
-
-import {Spacer} from "@nextui-org/react";
+import {Spacer} from "@nextui-org/spacer";
 
 import {sectionWrapper, titleWrapper, title, subtitle} from "../primitives";
 
