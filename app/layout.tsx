@@ -38,8 +38,6 @@ export default function RootLayout({
 }: {
 	children: React.ReactNode;
 }) {
-	const footerText = "Powered by NextUI\nDeployed by Cloudflare\nCopyright ⓒ 2023 Kotran all rights reserved.";
-
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head />
@@ -55,8 +53,8 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
 						</main>
-						<footer className="w-full flex items-center justify-center py-3" style={{whiteSpace: "pre-line", textAlign: "center"}}>
-							<p className="text-sm text-default-600 not-draggable">{footerText}</p>
+						<footer className="w-full flex items-center justify-center py-3">
+							<p className="text-sm text-default-400 not-draggable">ⓒ 2023 Kotran</p>
 						</footer>
 					</div>
 				</Providers>
