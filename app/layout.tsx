@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 		apple: "/apple-touch-icon.png",
 	},
 	manifest: "/manifest.json",
-	creator: "Kotran Technology",
+	creator: "Kotran",
 	viewport: "viewport-fit=cover, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
 };
 
@@ -39,7 +39,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html dir="ltr" lang="en" suppressHydrationWarning>
 			<head />
 			<body
 				className={clsx(

@@ -19,7 +19,7 @@ import {
   import {UserTwitterCard} from "@/components/demos/user-twitter-card";
   import {useIsMounted} from "@/hooks/use-is-mounted";
   import {useMediaQuery} from "@/hooks/use-media-query";
-  import {NextUILogo} from "@/components/icons";
+  import {Logo} from "@/components/icons";
   
   export const FloatingComponents: React.FC<{}> = () => {
     const {theme, setTheme} = useTheme();
@@ -85,7 +85,7 @@ import {
   
           <Card className="absolute right-[110px] -top-[60px] animate-[levitate_18s_ease_infinite] shadow-lg z-10 max-w-fit border-none">
             <CardBody>
-              <NextUILogo small size={60} />
+              <Logo size={60} />
             </CardBody>
           </Card>
   
