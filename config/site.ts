@@ -34,6 +34,6 @@ export const siteConfig = {
 	links: {
 		github: "https://github.com/kotran-io",
 		discord: "https://discord.gg/cZFugtQj",
-        sponsor: "https://patreon.com/"
+        sponsor: "https://patreon.com/Kotran"
 	},
 };
