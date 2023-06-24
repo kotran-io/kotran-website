@@ -11,25 +11,25 @@ export default {
       title: "Themeable",
       description:
         "Provides a plugin to customize default themes, you can change all semantic tokens or create an entire new theme.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Fast",
       description:
         "Built on top of Tailwind CSS, which means no runtime styles, and no unnecessary classes in your bundle.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Light & Dark UI",
       description:
         "Automatic dark mode recognition, NextUI automatically changes the theme when detects HTML theme prop changes.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Unique DX",
       description:
         "NextUI is fully-typed to minimize the learning curve, and provide the best possible developer experience.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
   ],
   fullFeatures: [
@@ -41,48 +41,48 @@ export default {
           which means you can import and use them directly in your RSC.
         </>
       ),
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Accessible components",
       description:
         "NextUI components follow the WAI-ARIA guidelines, provide keyboard support and sensible focus management.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Focus interactions",
       description:
         "Focus ring will appear only when user navigates with keyboard or screen reader.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Multiple packages",
       description:
         "NextUI is divided into multiple packages, so you can install only the components you need.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "TypeScript based",
       description:
         "Build type safe applications, NextUI has a fully-typed API to minimize the learning curve, and help you build applications.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Override components tags",
       description: "A polymorphic `as` prop is included in all NextUI components.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "No runtime styles",
       description:
         "NextUI is based on Tailwind CSS, it means that there are no runtime styles, and no unnecessary classes in your bundle.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
     {
       title: "Beautifully designed",
       description:
         "NextUI components are unique and are not tied to any visual trend or design rule, which makes us unique and of course your projects as well.",
-      icon: <GithubIcon className="text-pink-500" />,
+      icon: <GithubIcon className="text-blue-500" />,
     },
   ],
   themingCode: `const { nextui } = require("@nextui-org/react");

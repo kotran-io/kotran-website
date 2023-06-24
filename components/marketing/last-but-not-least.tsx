@@ -17,8 +17,8 @@ export const LastButNotLeast = () => {
               <h1 className={title({color: "blue", size: "lg"})}>but</h1>
             </div>
             <div>
-              <h1 className={title({size: "lg"})}>not&nbsp;</h1>
-              <h1 className={title({size: "lg", color: "yellow"})}>least.</h1>
+              <h1 className={title({size: "lg", color: "blue"})}>not&nbsp;</h1>
+              <h1 className={title({size: "lg"})}>least.</h1>
             </div>
           </div>
           <p
