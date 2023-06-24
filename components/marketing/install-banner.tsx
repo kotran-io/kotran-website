@@ -15,7 +15,7 @@ const bannerSuggestions = [
   {
     title: "Getting Started",
     description:
-      "Learn how to install the Kotran service and download models from Kotran Hub with docs.",
+      "Learn how to install the Kotran services and download a model from Kotran Hub.",
     icon: <GithubIcon className="text-blue-500" />,
     href: "/docs/guide/installation",
   },
