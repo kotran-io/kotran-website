@@ -38,7 +38,7 @@ export default function RootLayout({
 }: {
 	children: React.ReactNode;
 }) {
-	const footerText = "Powerd by NextUI\nDeployed by Cloudflare\nCopyright ⓒ 2023 Kotran all rights reserved.";
+	const footerText = "Powered by NextUI\nDeployed by Cloudflare\nCopyright ⓒ 2023 Kotran all rights reserved.";
 
 	return (
 		<html lang="en" suppressHydrationWarning>
