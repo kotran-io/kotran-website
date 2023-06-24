@@ -14,11 +14,11 @@ export const LastButNotLeast = () => {
           <div className={titleWrapper({class: "items-center"})}>
             <div>
               <h1 className={title({size: "lg"})}>Last&nbsp;</h1>
-              <h1 className={title({color: "yellow", size: "lg"})}>but</h1>
+              <h1 className={title({color: "blue", size: "lg"})}>but</h1>
             </div>
             <div>
               <h1 className={title({size: "lg"})}>not&nbsp;</h1>
-              <h1 className={title({size: "lg", color: "blue"})}>least.</h1>
+              <h1 className={title({size: "lg", color: "yellow"})}>least.</h1>
             </div>
           </div>
           <p
