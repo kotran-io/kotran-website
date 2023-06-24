@@ -43,7 +43,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
+					"no-overflow-x min-h-screen bg-background font-sans antialiased",
 					fontSans.className
 				)}
 			>
