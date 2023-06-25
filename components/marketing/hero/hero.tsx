@@ -51,7 +51,7 @@ export const Hero = () => {
             isExternal
             as={Link}
             className="w-full md:w-auto"
-            href="https://github.com/nextui-org/nextui"
+            href="https://github.com/kotran-io"
             radius="full"
             size="lg"
             startContent={<GithubIcon />}

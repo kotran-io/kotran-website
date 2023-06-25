@@ -2,7 +2,35 @@ import React from "react";
 
 import {IconSvgProps} from "@/types";
 
-export const Logo: React.FC<IconSvgProps> = ({
+export const KotranSymbol: React.FC<IconSvgProps> = ({
+	size = 128,
+	width,
+	height,
+	...props
+}) => (
+	<svg
+		fill="none"
+		height={size || height}
+		viewBox="0 0 700 700"
+		width={size || height}
+		{...props}
+	>
+        <defs>
+            <linearGradient id="gradient" x1="0" x2="1" y1="0" y2="0.8">
+                <stop offset="0%" stopColor="#19b5fe"/>
+                <stop offset="100%" stopColor="#5333ed"/>
+            </linearGradient>
+        </defs>
+
+		<g fill="url(#gradient)" clipRule="evenodd">
+		    <path fill="url(#gradient)" d="M389.99,382.56L389.99,382.56c-33.93-23.76-42.18-70.52-18.42-104.45L514.96,73.32 c23.76-33.93,70.52-42.18,104.45-18.42l0,0c33.93,23.76,42.18,70.52,18.42,104.45L494.44,364.14 C470.68,398.07,423.92,406.32,389.99,382.56z"/>
+	        <path fill="url(#gradient)" d="M345.49,651.62L345.49,651.62 c-37.54,17.51-82.16,1.26-99.67-36.28L55.64,207.51c-17.51-37.54-1.26-82.16,36.28-99.67l0,0c37.54-17.51,82.16-1.26,99.67,36.28 l190.18,407.84C399.27,589.5,383.03,634.12,345.49,651.62z"/>
+	        <path fill="url(#gradient)" d="M525.7,600.73L525.7,600.73 c-41.42,0-75-33.58-75-75v0c0-41.42,33.58-75,75-75h0c41.42,0,75,33.58,75,75v0C600.7,567.15,567.12,600.73,525.7,600.73z"/>
+        </g>
+	</svg>
+);
+
+export const KotranSignature: React.FC<IconSvgProps> = ({
 	size = 128,
 	width,
 	height,

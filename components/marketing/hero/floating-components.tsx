@@ -19,7 +19,7 @@ import {
   import {UserTwitterCard} from "@/components/demos/user-twitter-card";
   import {useIsMounted} from "@/hooks/use-is-mounted";
   import {useMediaQuery} from "@/hooks/use-media-query";
-  import {Logo} from "@/components/icons";
+  import {KotranSymbol} from "@/components/icons";
   
   export const FloatingComponents: React.FC<{}> = () => {
     const {theme, setTheme} = useTheme();
@@ -70,7 +70,7 @@ import {
               as={NextImage}
               className="object-cover -translate-y-12 h-[100%]"
               height={120}
-              src="/images/card-example-6.webp"
+              src="/images/card-example.webp"
               width={120}
             />
             <CardFooter className="before:bg-black/10 before:border before:border-white/20 overflow-hidden justify-between py-2 absolute before:rounded-xl rounded-xl bottom-1 w-[calc(100%_-_8px)] shadow-lg ml-1 z-10">
@@ -85,38 +85,22 @@ import {
   
           <Card className="absolute right-[110px] -top-[60px] animate-[levitate_18s_ease_infinite] shadow-lg z-10 max-w-fit border-none">
             <CardBody>
-              <Logo size={60} />
+              <KotranSymbol size={60} />
             </CardBody>
           </Card>
-  
-          <div className="absolute z-10 -top-[40px] -right-[230px] animate-[levitate_14s_ease_infinite_1s]">
-            <Pagination
-              isCompact
-              showControls
-              showShadow
-              classNames={{
-                base: "shadow-sm rounded-xl",
-                item: "bg-background dark:bg-content1",
-                prev: "bg-background dark:bg-content1",
-                next: "bg-background dark:bg-content1",
-              }}
-              initialPage={6}
-              total={10}
-            />
-          </div>
   
           {isMounted && (
             <Tooltip
               showArrow
               className="text-sm animate-[levitate_14s_ease_infinite]"
-              color="secondary"
+              color="primary"
               content="Developers love Next.js"
               isOpen={!isTablet}
               placement="top"
             >
               <Button
                 className="absolute left-[200px] top-[160px] max-w-fit animate-[levitate_14s_ease_infinite_0.5s]"
-                color="secondary"
+                color="primary"
                 size="sm"
                 variant="flat"
               >
@@ -125,9 +109,9 @@ import {
             </Tooltip>
           )}
   
-          <Card className="absolute right-[10px] top-[30px] animate-[levitate_16s_ease_infinite] shadow-lg z-10 max-w-fit border-none">
+          <Card className="absolute right-[-40px] top-[-10px] animate-[levitate_16s_ease_infinite] shadow-lg z-10 max-w-fit border-none">
             <CardBody>
-              <Spinner color="secondary" size="xl" />
+              <Spinner color="primary" size="xl" />
             </CardBody>
           </Card>
   

@@ -34,7 +34,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 		getWrapperProps,
 	} = useSwitch({
 		isSelected: theme === "light",
-    "aria-label": `Switch to ${theme === "light" ? "dark" : "light"} mode`,
+        "aria-label": `Change the theme`,
 		onChange,
 	});
 
@@ -53,6 +53,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 			</VisuallyHidden>
 			<div
 				{...getWrapperProps()}
+
 				className={slots.wrapper({
 					class: clsx(
 						[

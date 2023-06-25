@@ -26,7 +26,7 @@ export const UserTwitterCard: FC<UserTwitterCardProps> = ({className}) => {
             }}
             radius="full"
             size="md"
-            src="/avatars/avatar-1.webp"
+            src="/avatars/avatar.webp"
           />
           <div className="flex flex-col items-start justify-center">
             <h4 className="text-sm font-semibold leading-none text-default-600">Zoey Lang</h4>
