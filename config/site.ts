@@ -35,7 +35,7 @@ export const siteConfig = {
 		},
 		{
 			label: "Discord",
-			href: "/feedback",
+			href: "https://discord.gg/cZFugtQj",
 			isExternal: true,
 		},
 		{
