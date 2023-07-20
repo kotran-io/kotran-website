@@ -1,0 +1,152 @@
+# ==================================================
+# Original Code
+# https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+# Modified by handbros(@kotran-io)
+# ==================================================
+
+# Project information
+site_name: Kotran
+site_url: https://kotran.io/
+site_author: Kotran Contributors
+site_description: Vittetsens Docs, the joint documentation system for Vittetsens Developers
+
+# Repository
+repo_name: kotran-io/kotran-website
+repo_url: https://github.com/kotran-io/kotran-website
+edit_uri: blob/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2023 Kotran
+
+# Configuration
+theme:
+  language: en
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - header.
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Fira Code
+  favicon: assets/symbol.svg
+  logo: assets/signature.svg
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Customization
+extra:
+  generator: false
+  annotate:
+    json: [.s2]
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage
+  social:
+    - icon: fontawesome/solid/house
+      link: https://kotran.io
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@kotran.io
+    - icon: fontawesome/solid/lightbulb
+      link: https://kotran.io/feedback
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: kotran-io
+      repo: kotran-website
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: 
+    - index.md
+  - Guides:
+    - guides/index.md
+    - User Guide: guides/user/index.md
+    - Developer Guide: guides/developer/index.md
+  - Hub:
+    - hub.md
+  - Community:
+    - community.md
