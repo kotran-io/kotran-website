@@ -1,0 +1,6 @@
+[data-md-color-scheme="default"] {
+    --md-footer-fg-color: hsla(0, 0%, 30%, 1);
+    --md-footer-fg-color--light: hsla(0, 0%, 30%, 1);
+    --md-footer-bg-color: hsla(0, 0%, 98%, 1);
+    --md-footer-bg-color--dark: hsla(0, 0%, 98%, 1);
+}
